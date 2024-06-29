@@ -1,0 +1,310 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.body-color {
+    width: 95%;
+    height: 650px;
+    margin: 10px;
+    background-color: rgba(33, 34, 34, 0.945);
+    margin-left: 30px;
+
+}
+
+.header {
+    width: 97%;
+    height: 120px;
+    background-color: rgba(11, 162, 162, 0.954);
+    margin-left: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box1 {
+    margin: 10px;
+    width: 250px;
+    height: 100px;
+
+
+}
+
+.topic {
+    font-size: large;
+    color: azure;
+    font-weight: bold;
+    margin: 40px;
+    cursor: pointer;
+    background-color: rgba(11, 162, 162, 0.954);
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: opacity 2s;
+}
+
+.topic:hover {
+    background-color: rgba(170, 230, 234, 0.806);
+    padding: 5px;
+    color: rgba(5, 74, 74, 0.954);
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.topic:active {
+    opacity: 0.1;
+    background-color: azure;
+}
+
+.box2 {
+    margin: 10px;
+
+    width: 600px;
+    height: 100px;
+
+    display: inline-block;
+    flex: 1;
+
+}
+
+ul,
+li {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 22px;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    transition: opacity 2s;
+
+
+}
+
+li :hover {
+    background-color: rgba(170, 230, 234, 0.806);
+    padding: 3px;
+    color: rgba(5, 74, 74, 0.954);
+    cursor: pointer;
+   
+    opacity: 0.8;
+
+
+}
+
+.home,
+.about,
+.project,
+.skills,
+.contact,
+.education {
+    text-decoration: none;
+    color: azure;
+}
+
+
+
+li:active {
+    opacity: 0.1;
+    background-color: azure;
+
+}
+
+.big-box {
+
+    width: 97%;
+    height: 500px;
+    margin-left: 17px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.content {
+
+    width: 550px;
+    height: 500px;
+    margin: 10px;
+    position: relative;
+    top: 40px;
+
+}
+
+.resume {
+    background-color: aqua;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 170px;
+    border: none;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+
+}
+
+.image {
+    margin-top: 50px;
+    width: 530px;
+    height: 480px;
+    margin: 10px;
+    display: flex;
+
+}
+
+.image-box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 233, 254);
+    border-radius: 250px;
+    margin-top: 100px;
+    margin-left: 90px;
+    box-shadow: 5px 5px 25px rgb(0, 233, 254);
+    opacity: 0.8;
+
+}
+
+.profile-image {
+    width: 300px;
+    height: 340px;
+    background-size: cover;
+    background-image: url(images/myimage.png);
+
+    position: relative;
+    bottom: 40px;
+    
+
+    z-index: 1;
+    border-radius: 250px;
+}
+
+.helloo,
+.hello {
+    font-size: large;
+    font-family: cursive;
+    margin: 10px;
+    color: azure;
+
+
+}
+
+.highlight {
+    color: rgba(13, 234, 234, 0.954);
+}
+
+.myname {
+    font-size: 40px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    line-height: 60px;
+
+
+}
+
+.paragraph {
+    color: rgba(234, 241, 241, 0.945);
+
+    font-family: cursive;
+    margin: 10px;
+    margin-top: 40px;
+
+
+}
+
+/* popup design for passion button*/
+
+
+.popup-head {
+    margin: 20px;
+    margin-top: 20px;
+    color: rgb(5, 230, 230);
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.passion-content {
+    margin: 20px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: cursive;
+    color: azure;
+}
+
+.black-shadow {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.9;
+    display: none;
+
+
+
+
+}
+
+
+.popup-box1 {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    opacity: 1.0;
+
+    background-color: rgba(33, 34, 34, 0.945);
+    ;
+
+    display: none;
+}
+
+.close {
+    padding: 8px;
+    background-color: rgba(11, 237, 237, 0.774);
+    border: none;
+    color: azure;
+    position: relative;
+    top: 100px;
+    left: 400px;
+    border-radius: 2px;
+    font-size: medium;
+
+}
+
+/* creating next button*/
+.next-button {
+    padding: 10px;
+    background-color: rgb(8, 209, 209);
+    position: relative;
+    top: 350px;
+    left: 60px;
+    font-size: x-large;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.next-btn {
+    text-decoration: none;
+    color: black;
+}
+
+.next-button:hover {
+    background-color: rgba(170, 230, 234, 0.806);
+    opacity: 0.8;
+    color: rgba(5, 74, 74, 0.954);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+.next-button:active {
+    opacity: 0.1;
+    background-color: azure;
+
+}
+
+/* */
